@@ -1,5 +1,10 @@
 set tags+=~/.vim/tags
+syntax enable
 syntax on
+set cursorline
+hi CursorLine  cterm=NONE   ctermbg=darkred ctermfg=white
+hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white
+colorscheme desert
 filetype plugin indent on
 set t_Co=256
 set background=dark  "dark light "can switch it to find which is look pretty
@@ -25,6 +30,14 @@ set backspace=indent,eol,start   "better backspace
 set fileencodings=utf-8,cp936    "auto test the file is uft-8 or cp936
 set fileformats=unix,dos,mac     "line feed different in different mode
 set completeopt=menuone,longest
+set relativenumber
+
+set path=/media/jiange/226C201E6C1FEAF5/Users/jiange/Desktop/实习/Taf_V3Beta02_Build001_B001/**,
+set path+=/usr/include/**
+
+set foldmethod=syntax "用语法高亮来定义折叠
+set foldlevel=100   "启动vim时不要自动折叠代码
+set foldcolumn=5    "设置折叠栏的宽度
 
 highlight TagbarHighlight guifg=Green ctermfg=Green
 let NERDTreeQuitOnOpen=1
