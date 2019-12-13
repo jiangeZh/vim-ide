@@ -8,11 +8,11 @@
 ### How to install and update
 
 * **centos, redhat, fedora install command:**
-    * yum install ctags cscope wget unzip -y && wget https://github.com/langsim/vim-ide/archive/master.zip -O master.zip && unzip -o master.zip && \cp -rf vim-ide-master/.vim* ~ ; rm -rf master.zip vim-ide-master
+    * yum install ctags cscope wget unzip -y && wget https://github.com/jiangeZh/vim-ide/archive/master.zip -O master.zip && unzip -o master.zip && \cp -rf vim-ide-master/.vim* ~ ; rm -rf master.zip vim-ide-master
 * **debian, ubuntu install command:**
-    * apt-get install ctags cscope wget unzip -y && wget https://github.com/langsim/vim-ide/archive/master.zip -O master.zip && unzip -o master.zip && \cp -rf vim-ide-master/.vim* ~ ; rm -rf master.zip vim-ide-master
+    * apt-get install ctags cscope wget unzip -y && wget https://github.com/jiangeZh/vim-ide/archive/master.zip -O master.zip && unzip -o master.zip && \cp -rf vim-ide-master/.vim* ~ ; rm -rf master.zip vim-ide-master
 * **mac install command, insure has installed brew, wget and unzip:**
-    * brew install ctags cscope -y && hash ctags cscope wget unzip && wget https://github.com/langsim/vim-ide/archive/master.zip -O master.zip && unzip -o master.zip && \cp -rf vim-ide-master/.vim* ~ ; rm -rf master.zip vim-ide-master
+    * brew install ctags cscope -y && hash ctags cscope wget unzip && wget https://github.com/jiangeZh/vim-ide/archive/master.zip -O master.zip && unzip -o master.zip && \cp -rf vim-ide-master/.vim* ~ ; rm -rf master.zip vim-ide-master
 
 
 ### How to use it read and write c/c++ project
